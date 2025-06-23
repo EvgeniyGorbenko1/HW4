@@ -3,18 +3,20 @@ import java.util.Scanner;
 
 public class HW4 {
     public static void main(String[] args) {
-        //№1234
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter array lenght:");
         int lenght = scanner.nextInt();
         int[] array = new int[lenght];
+        System.out.println("Enter array numbers:");
         for (int i = 0; i < lenght; i++) {
             array[i] = scanner.nextInt();
         }
+
      //   for (int i = 0; i < lenght; i++) {
      //       array[i] = (int) (Math.random() * 100); //Случайные числа
      //       System.out.println(array[i]);
      //   }
+        System.out.println("Reversed array:");
         for (int i = array.length - 1; i >= 0; i--) {
             System.out.println(array[i]);
         }
