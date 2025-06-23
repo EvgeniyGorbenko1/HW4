@@ -4,12 +4,12 @@ import java.util.Scanner;
 public class HW4 {
     public static void main(String[] args) {
         //№1234
-        /*Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Enter array lenght:");
         int lenght = scanner.nextInt();
         int[] array = new int[lenght];
         for (int i = 0; i < lenght; i++) {
-            array[i] = (int) (Math.random() *100);
+            array[i] = (int) (Math.random() * 100);
             System.out.println(array[i]);
         }
         for (int i = array.length - 1; i >= 0; i--) {
@@ -28,23 +28,23 @@ public class HW4 {
         System.out.println("min:" + minInd);
         System.out.println("max:" + maxInd);
         int zero = 0;
-        for (int number : array){
-            if (number == 0){
+        for (int number : array) {
+            if (number == 0) {
                 zero++;
             }
         }
         System.out.println("Count zero: " + zero);
-        scanner.close();*/
-//№5
-       /* int [] array = {2,5,6,1};
+
         int a = array[0];
         int b = array[1];
         array[0] = array[array.length - 1];
         array[array.length - 1] = a;
-        array[1] = array[array.length -1 -1];
-        array[array.length -1 -1] = b;
+        array[1] = array[array.length - 1 - 1];
+        array[array.length - 1 - 1] = b;
+        System.out.print("Заменены 1 и 4, 2 и 3 элементы массива местами:" + " ");
+        System.out.print(Arrays.toString(array));
+        scanner.close();
 
-        System.out.println(Arrays.toString(array));*/
         //№6
         /*int[] array = {1, 2, 5, 9, 12};
         boolean result = true;
