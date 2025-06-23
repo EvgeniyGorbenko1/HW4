@@ -60,9 +60,9 @@ public class HW4 {
             }
         }
         if (result) {
-            System.out.println("Возрастающий");
+            System.out.println("Не Возрастающий");
         } else {
-            System.out.println("Не возрастающий");
+            System.out.println("Возрастающий");
         }
         scanner.close();
 
