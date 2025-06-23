@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class HomeWork4 {
+public class HW4 {
     public static void main(String[] args) {
         //№1234
         /*Scanner scanner = new Scanner(System.in);
@@ -62,7 +62,6 @@ public class HomeWork4 {
         } else {
             System.out.println("Не возрастающий");
         }*/
-
 
     }
 }
